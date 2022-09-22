@@ -11,7 +11,7 @@ function HomePage() {
     var [minutes, setMinutes] = useState(0);
     var [seconds, setSeconds] = useState(0);
   
-    const deadline = "December, 29, 2022";
+    const deadline = "December, 29, 2023";
     
     if (days>365){
       days = days - 365
